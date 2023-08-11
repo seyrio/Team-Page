@@ -1,0 +1,75 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.t,
+.desc {
+  font-family: "PT Serif";
+}
+
+.des {
+  width: 90%;
+}
+
+.one {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  margin-left: -3rem;
+}
+
+.desc {
+  writing-mode: vertical-lr;
+  position: absolute;
+  top: 0px;
+  left: 16rem;
+}
+
+.card1 {
+  position: relative;
+  width: 16rem;
+  margin: 4rem 3rem;
+}
+
+.name {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.one div:nth-child(3n-1) {
+  margin-top: 10rem;
+}
+
+@media screen and (max-width: 992px) {
+  .card1 {
+    width: 11.5rem;
+  }
+
+  .desc {
+    left: 11.5rem;
+  }
+
+  .one div:nth-child(3n-1) {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card1 {
+    width: 11.5rem;
+  }
+
+  .desc {
+    left: 11.5rem;
+  }
+
+  .one div:nth-child(even) {
+    margin-top: 10rem;
+  }
+
+  .one div:nth-child(odd) {
+    margin-top: 4rem;
+  }
+}
