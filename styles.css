@@ -16,7 +16,6 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 4rem;
-  margin-left: -3rem;
 }
 
 .desc {
@@ -71,5 +70,9 @@ body {
 
   .one div:nth-child(odd) {
     margin-top: 4rem;
+  }
+
+  .one {
+    margin-left: -3rem;
   }
 }
